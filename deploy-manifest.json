@@ -9,7 +9,7 @@
     "minimumCacheTTL": 60,
     "dangerouslyAllowSVG": false
   },
-  "routes": [
+  "routes": [ 
     {
       "path": "/*",
       "target": {
