@@ -1,16 +1,16 @@
 import express from "express";
 import dotenv from "dotenv";
 import bodyParser from "body-parser";
-import authRoutes from "./routes/authRoutes.js";
-import connectDB from "./config/db.js";
+import authRoutes from "../routes/authRoutes.js";
+import connectDB from "../config/db.js";
 
 import cors from "cors";
-import addContent from "./routes/assignmentRoutes.js";
-import updateContentRouter from "./routes/updateContentRouter.js";
-import getAllAssignments from "./routes/assignmentRoutes.js";
-import deleteAssignmnet from "./routes/assignmentRoutes.js";
-import addLinks from "./routes/linkRoutes.js";
-import linkRoutes from "./routes/linkRoutes.js";
+import addContent from "../routes/assignmentRoutes.js";
+import updateContentRouter from "../routes/updateContentRouter.js";
+import getAllAssignments from "../routes/assignmentRoutes.js";
+import deleteAssignmnet from "../routes/assignmentRoutes.js";
+import addLinks from "../routes/linkRoutes.js";
+import linkRoutes from "../routes/linkRoutes.js";
 
 //rest object
 const app = express();
