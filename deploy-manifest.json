@@ -14,7 +14,7 @@
       "path": "/*",
       "target": {
         "kind": "Compute",
-        "src": "server.js" 
+        "src": "server.js"  
       }
     }
   ],
