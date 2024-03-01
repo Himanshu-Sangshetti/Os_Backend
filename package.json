@@ -2,14 +2,14 @@
   "name": "os_virtuallab_backend",
   "version": "1.0.0",
   "description": "Technologies Used \r Node.js \r MongoDB\r Express",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "module",
   "engines": {
     "node": "18.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/server.js",
+    "start": "node server.js",
     "postbuild": "chmod +x postbuild.sh && ./postbuild.sh"
   },
   "repository": {
