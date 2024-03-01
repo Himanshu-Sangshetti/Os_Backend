@@ -27,3 +27,7 @@ cp -r ./model ./.amplify-hosting/compute/default/model
 cp -r ./routes ./.amplify-hosting/compute/default/routes
 
 cp -r ./.env ./.amplify-hosting/compute/default/.env
+
+cp package.json ./.amplify-hosting/package.json
+
+cp package-lock.json ./.amplify-hosting/package-lock.json
