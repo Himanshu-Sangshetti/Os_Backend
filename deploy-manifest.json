@@ -14,7 +14,7 @@
       "path": "/*",
       "target": {
         "kind": "Compute",
-        "src": "server.js" 
+        "src": "compute/default/server.js" 
       }
     }
   ],
@@ -22,7 +22,7 @@
     {
       "name": "default",
       "runtime": "nodejs18.x",
-      "entrypoint": "server.js"   
+      "entrypoint": "compute/default/server.js"   
     }
   ]   
 }
